@@ -1,0 +1,33 @@
+{
+    "name": "huo-zi/laravel-admin-ext-displayer",
+    "description": "description...",
+    "type": "library",
+    "keywords": ["laravel-admin", "extension"],
+    "homepage": "https://github.com/huo-zi/laravel-admin-displayer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "huozi1024",
+            "email": "lio990527@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "encore/laravel-admin": "~1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Huozi\\Admin\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Huozi\\Admin\\DisplayerServiceProvider"
+            ]
+        }
+    }
+}
