@@ -1,8 +1,8 @@
 {
     "name": "huo-zi/laravel-admin-ext-displayer",
-    "description": "description...",
+    "description": "laravel-admin displayer extension",
     "type": "library",
-    "keywords": ["laravel-admin", "extension"],
+    "keywords": ["laravel-admin", "extension", "grid", "displayer"],
     "homepage": "https://github.com/huo-zi/laravel-admin-displayer",
     "license": "MIT",
     "authors": [
